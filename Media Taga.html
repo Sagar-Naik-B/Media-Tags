@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Tags</title>
+</head>
+<body>
+    <h1>Media Tags</h1>
+    <!--
+        Media tags are used to insert media like image,vedio & audios on webpage
+        Attribute
+            ->scr attribute are used to insert the path of file 
+            ->alt attribute is used to give akternate msg & it will dispaly the msg when something is wrong in path
+            ->height & width attribute are used to set proper size of image/vedio
+    -->
+
+    <h2>To Insert a image</h2>
+
+    <img src="---google img path---">
+    
+    <img src="./Image/download.jfif" alt="missing">
+
+    <img src="./Image/download.jfif" height="400" width="400" title="ktm rc">
+
+    <img src="./Image/ktm rc.jfif" alt="missing....!">
+    
+
+    <h2>to Insert a Audio</h2>
+    
+    <!--controls attribute is used to allow the user to control audio/vedio playpack ,inciuding volume , pause/resume playback-->
+
+    <audio src="./Audio/" controls></audio>
+
+    <audio controls>
+        <source src="./Audio/">
+    </audio>
+
+    <h2>Insertion of Video</h2>
+
+    <video src="./video/" controls></video>
+
+    <video controls>
+        <source src="./video/">
+    </video>
+
+    <h2>Iframe</h2>
+        <!--to create nested page we are using iframe tag 
+        NOTE:nowadays we are not using-->
+
+    <iframe src="./Image/ktm rc.jfif"></iframe>
+
+</body>
+</html>
